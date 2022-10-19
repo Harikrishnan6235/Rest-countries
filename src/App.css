@@ -34,7 +34,7 @@ span{
   padding-inline: 45px;
   box-sizing: border-box;
   background-color: rgb(224, 240, 245);
-  /* background-color: rgb(244, 247, 248); */
+  color: black;
 }
 .search{
   width: 25%;
@@ -94,7 +94,7 @@ span{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 45px;
+    padding-inline: 20px;
     box-sizing: border-box;
   
   }

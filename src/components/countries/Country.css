@@ -55,7 +55,7 @@
 }
 @media(max-width:600px){
     .datacard{
-        width: 325px;
+        width: 80vw;
         height: 300px;
         margin-left: 20px;
         margin: 30px;

@@ -14,8 +14,8 @@ const App = () => {
     <div className='main'>
       <div className="header">
         <h1 className='where'>Where in the world?</h1>
-        <div className="modes"><FaMoon/> 
-        <font> Dark Mode </font>
+        <div className="modes"><FaMoon color='black'/> 
+        <h1 className='darkmode'> Dark Mode </h1>
         </div>
       </div>
       <div className="options">

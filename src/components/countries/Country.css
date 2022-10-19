@@ -1,0 +1,68 @@
+.datacard{
+    width: 230px;
+    height: 300px;
+    margin-left: 20px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.flag{
+    width: 100%;
+    height: 150px;
+}
+.nation{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+}
+.name{
+    font-size: medium;
+    margin-left: 20px;
+    font-weight: 900;
+}
+.details{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 18px;
+    
+}
+.population{
+    font-size: small;
+    margin-left: 20px;
+    margin-top: -1px;
+}
+.region{
+    font-size: small;
+    margin-left: 20px;
+    margin-top: -1px;
+}
+.capital{
+    font-size: small;
+    margin-left: 20px;
+    margin-top: -1px;
+}
+@media(max-width:600px){
+    .datacard{
+        width: 325px;
+        height: 300px;
+        margin-left: 20px;
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
